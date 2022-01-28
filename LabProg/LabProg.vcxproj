@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{C523C3AF-39DA-4100-802C-736272C5A9D7}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>LabProg</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="ArsenDLL2">
+      <HintPath>..\..\Программирование\Библиотеки\ArsenDLL2\Debug\ArsenDLL2.dll</HintPath>
+    </Reference>
+    <Reference Include="FunctionLibrary">
+      <HintPath>..\..\МТУСИ дистант\Программирование\Библиотеки\FunctionLibrary\Debug\FunctionLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="FunctionLibraryInform">
+      <HintPath>..\Library\FunctionLibraryInform\Debug\FunctionLibraryInform.dll</HintPath>
+    </Reference>
+    <Reference Include="MassiveLibrary">
+      <HintPath>..\Library\MassiveLibrary\Debug\MassiveLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MassiveLibrary2inform">
+      <HintPath>..\Library\MassiveLibrary2inform\Debug\MassiveLibrary2inform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChoiceLab.cpp" />
+    <ClCompile Include="dopklab1.cpp" />
+    <ClCompile Include="dopklab1usl.cpp" />
+    <ClCompile Include="lab12screen1inform.cpp" />
+    <ClCompile Include="lab12screen2inform.cpp" />
+    <ClCompile Include="lab1screen1inform.cpp" />
+    <ClCompile Include="lab1screen2.cpp" />
+    <ClCompile Include="lab1screen1.cpp" />
+    <ClCompile Include="lab1screen2inform.cpp" />
+    <ClCompile Include="lab2screen1.cpp" />
+    <ClCompile Include="lab2screen2.cpp" />
+    <ClCompile Include="lab4screen1.cpp" />
+    <ClCompile Include="lab4screen2.cpp" />
+    <ClCompile Include="lab5screen1.cpp" />
+    <ClCompile Include="lab5screen2.cpp" />
+    <ClCompile Include="lab6screen1.cpp" />
+    <ClCompile Include="lab6screen1inform.cpp" />
+    <ClCompile Include="lab6screen2.cpp" />
+    <ClCompile Include="lab6screen2inform.cpp" />
+    <ClCompile Include="lab7screen1.cpp" />
+    <ClCompile Include="lab7screen1inform.cpp" />
+    <ClCompile Include="lab7screen2.cpp" />
+    <ClCompile Include="lab7screen21.cpp" />
+    <ClCompile Include="lab7screen2inform.cpp" />
+    <ClCompile Include="lab8screen1.cpp" />
+    <ClCompile Include="lab8screen1inform.cpp" />
+    <ClCompile Include="lab8screen2.cpp" />
+    <ClCompile Include="lab8screen2inform.cpp" />
+    <ClCompile Include="lab9screen1.cpp" />
+    <ClCompile Include="lab9screen1inform.cpp" />
+    <ClCompile Include="lab9screen2.cpp" />
+    <ClCompile Include="lab9screen2inform.cpp" />
+    <ClCompile Include="labscreen.cpp" />
+    <ClCompile Include="labscreeninform.cpp" />
+    <ClCompile Include="titlelist.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChoiceLab.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="dopklab1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="dopklab1usl.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab12screen1inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab12screen2inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab1screen1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab1screen1inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab1screen2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab1screen2inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab2screen1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab2screen2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab4screen1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab4screen2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab5screen1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab5screen2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab6screen1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab6screen1inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab6screen2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab6screen2inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab7screen1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab7screen1inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab7screen2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab7screen2inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab8screen1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab8screen1inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab8screen2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab8screen2inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab9screen1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab9screen1inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab9screen2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lab9screen2inform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="labscreen.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="labscreeninform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="titlelist.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChoiceLab.resx">
+      <DependentUpon>ChoiceLab.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dopklab1.resx">
+      <DependentUpon>dopklab1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dopklab1usl.resx">
+      <DependentUpon>dopklab1usl.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab12screen1inform.resx">
+      <DependentUpon>lab12screen1inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab12screen2inform.resx">
+      <DependentUpon>lab12screen2inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab1screen1.resx">
+      <DependentUpon>lab1screen1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab1screen1inform.resx">
+      <DependentUpon>lab1screen1inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab1screen2.resx">
+      <DependentUpon>lab1screen2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab1screen2inform.resx">
+      <DependentUpon>lab1screen2inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab2screen1.resx">
+      <DependentUpon>lab2screen1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab2screen2.resx">
+      <DependentUpon>lab2screen2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab4screen1.resx">
+      <DependentUpon>lab4screen1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab4screen2.resx">
+      <DependentUpon>lab4screen2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab5screen1.resx">
+      <DependentUpon>lab5screen1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab5screen2.resx">
+      <DependentUpon>lab5screen2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab6screen1.resx">
+      <DependentUpon>lab6screen1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab6screen1inform.resx">
+      <DependentUpon>lab6screen1inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab6screen2.resx">
+      <DependentUpon>lab6screen2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab6screen2inform.resx">
+      <DependentUpon>lab6screen2inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab7screen1.resx">
+      <DependentUpon>lab7screen1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab7screen1inform.resx">
+      <DependentUpon>lab7screen1inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab7screen2.resx">
+      <DependentUpon>lab7screen2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab7screen2inform.resx">
+      <DependentUpon>lab7screen2inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab8screen1.resx">
+      <DependentUpon>lab8screen1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab8screen1inform.resx">
+      <DependentUpon>lab8screen1inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab8screen2.resx">
+      <DependentUpon>lab8screen2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab8screen2inform.resx">
+      <DependentUpon>lab8screen2inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab9screen1.resx">
+      <DependentUpon>lab9screen1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab9screen1inform.resx">
+      <DependentUpon>lab9screen1inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab9screen2.resx">
+      <DependentUpon>lab9screen2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lab9screen2inform.resx">
+      <DependentUpon>lab9screen2inform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="labscreen.resx">
+      <DependentUpon>labscreen.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="labscreeninform.resx">
+      <DependentUpon>labscreeninform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="titlelist.resx">
+      <DependentUpon>titlelist.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

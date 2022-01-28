@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="titlelist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="labscreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab1screen2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab1screen1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dopklab1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dopklab1usl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab2screen1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab2screen2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab4screen1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab4screen2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5screen1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5screen2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab6screen1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab6screen2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab7screen1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab7screen2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab8screen1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab8screen2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab9screen1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab9screen2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab1screen1inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab1screen2inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChoiceLab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="labscreeninform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab6screen1inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab6screen2inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab7screen1inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab7screen2inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab8screen1inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab8screen2inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab9screen1inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab9screen2inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab12screen1inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab12screen2inform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="titlelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="labscreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab1screen2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab1screen1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dopklab1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dopklab1usl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab2screen1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab2screen2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab4screen1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab4screen2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab5screen1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab5screen2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab6screen1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab6screen2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab7screen1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab7screen2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab7screen21.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab8screen1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab8screen2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab9screen1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab9screen2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab1screen1inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab1screen2inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChoiceLab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="labscreeninform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab6screen1inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab6screen2inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab7screen1inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab7screen2inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab8screen1inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab8screen2inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab9screen1inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab9screen2inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab12screen1inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab12screen2inform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
